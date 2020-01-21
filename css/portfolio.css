@@ -1,0 +1,1684 @@
+/* Homepage*/
+
+.background_img {
+    background-image: url(../assets/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-left: 18%;
+    position: fixed;
+    height: 120%;
+    width: 60%;
+}
+
+body {
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+.background_img p {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 200px;
+    color: white;
+}
+
+#p1 {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+}
+
+#p2 {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#button_first {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#button {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    /*background-color: #222222;*/
+    padding: 0px 35px;
+    color: #222222;
+}
+
+.first_text {
+    position: relative;
+    margin-top: 240px;
+    padding-left: -10px;
+    margin-left: -15px;
+}
+
+#mouse {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 0px;
+    height: 60px;
+    font-size: 0.8em;
+    text-align: bottom;
+    color: white;
+    /* z-index: 1; */
+    left: 50%;
+    position: relative;
+    top: 600px;
+  }
+
+/*Homepage end*/
+
+/*horizontal common heading start*/
+
+h5 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: -1;
+    left: 22%;
+    margin-right: 15%;
+}
+
+h5:before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #777777;
+    margin: auto;
+}
+
+h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #777777;
+    margin: auto;
+    margin-right: 8%;
+}
+
+#rectangle {
+    height: 40px;
+    width: 100px;
+    border: 1.5px solid #0000FF;
+    text-align: center;
+}
+
+#rectangle p {
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+#rectangle h3 {
+    font-family: 'Rajdhani', sans-serif;
+    color: #000033;
+    margin-top: 8px;
+}
+
+/*horizontal common heading end*/
+
+/* common navbar*/
+
+h4 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper1 {
+    display: flex;
+    position: relative;
+}
+
+.wrapper1 .navBar {
+    position: fixed;
+    width: 18%;
+    height: 100%;
+    background-color: #2f3742;
+    line-height: 0.5em;
+}
+
+.wrapper1 .navBar ul li {
+    padding: 15px;
+    padding-left: 30px;
+    list-style: none;
+   
+}
+
+.wrapper1 .navBar ul li a.listelem {
+    color: #777777;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.wrapper1 .navBar ul li a.listelem.active {
+    position: relative;
+    left: -22%;
+    border-left: 10px solid #3046fc;
+    color: #3046fc;
+    padding-left: 15%;
+    font-weight: bold;
+  }
+
+.wrapper1 .navBar ul {
+    position: fixed;
+    padding-left: 0pt;
+    line-height: 0.6em;
+    font-weight: bold;
+}
+
+.wrapper1 .navBar logo {
+    width: 60px;
+    height: 80px;
+}
+
+.wrapper1 .navBar p {
+    text-align: center;
+    padding-top: below logo;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-weight: bold;
+}
+
+.wrapper1 .navBar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    /*height: 40%;*/
+}
+
+#p_footer {
+    line-height: 1.5em;
+    font-size: 0.70em;
+    text-align: center;
+    margin-top: -15px;
+    color: #777777;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*common navbar end*/
+
+/*aboutme start*/
+
+.column1 {
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 22%;
+    height: 300px;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+
+#profilepic {
+    width: 80%;
+    height: 150%;
+    left: 50px;
+    position: relative;
+}
+
+.column2a {
+    float: left;
+    position: fixed;
+}
+
+.column2b {
+    float: right;
+    position: relative;
+    left: -40px;
+}
+
+.icon1 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    position: fixed;
+    float: left;
+}
+
+.icon1 i {
+    position: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 0.70em;
+}
+
+.icon2 i {
+    position: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 0.70em;
+}
+
+.icon3 i {
+    position: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 0.70em;
+}
+
+.icon4 i {
+    position: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 0.70em;
+}
+
+.icon5 i {
+    position: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 0.70em;
+}
+
+.icon6 i {
+    position: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 0.70em;
+}
+
+.icon2 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+}
+
+.icon3 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.icon4 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    position: fixed;
+}
+
+.icon5 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+}
+
+.icon6 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+    /* left: -46px; */
+    top: -30px;
+}
+
+#name {
+    position: relative;
+    left: 40px;
+    line-height: 6px;
+    top: -8px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+#phone {
+    position: relative;
+    left: 40px;
+    line-height: 6px;
+    top: -40px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+#address {
+    position: relative;
+    left: 40px;
+    line-height: 6px;
+    top: -70px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+#email {
+    position: relative;
+    line-height: 6px;
+    top: -8px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    left: 40px;
+}
+
+#dob {
+    position: relative;
+    left: 40px;
+    line-height: 6px;
+    top: -40px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+#nat {
+    position: relative;
+    left: 40px;
+    line-height: 6px;
+    top: -70px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+.social {
+    position: relative;
+    top: 150px;
+    left: 100px;
+    float: right;
+}
+
+.socialtext {
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 14px;
+}
+
+.sicon1 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    border: gray;
+    border-style: solid;
+    border-width: thin;
+    float: right;
+}
+
+.sicon1 i {
+    position: center;
+    padding-top: 30%;
+    font-size: 0.60em;
+    color: #777777;
+}
+
+.bottomicon{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    /* left: 20px; */
+    /* top: -20px; */
+    border: gray;
+    border-style: solid;
+    border-width: thin;
+    float: right;
+    bottom: 0;
+    right: 10%;
+}
+
+.bottomicon i {
+    position: center;
+    padding-top: 30%;
+    font-size: 0.em;
+    color: blue;
+}
+
+.sicon2 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    top: -20px;
+    border: gray;
+    border-style: solid;
+    border-width: thin;
+    float: right;
+}
+
+.sicon2 i {
+    position: center;
+    padding-top: 30%;
+    font-size: 0.60em;
+    color: #777777;
+}
+
+.sicon3 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    top: -20px;
+    border: gray;
+    border-style: solid;
+    border-width: thin;
+    float: right;
+}
+
+.sicon3 i {
+    position: center;
+    padding-top: 30%;
+    font-size: 0.60em;
+    color: #777777;
+}
+
+.sicon4 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: -20px;
+    border: gray;
+    border-style: solid;
+    border-width: thin;
+    float: right;
+}
+
+.sicon4 i {
+    position: center;
+    padding-top: 30%;
+    font-size: 0.60em;
+    color: #777777;
+}
+
+.sicon5 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 220px;
+    top: -20px;
+    border: gray;
+    border-style: solid;
+    border-width: thin;
+    float: right;
+}
+
+.sicon5 i {
+    position: center;
+    padding-top: 30%;
+    font-size: 0.60em;
+    color: #777777;
+}
+
+.details {
+    margin-top: 20%;
+    /* left: 150px; */
+    /* float: right; */
+    /* position: relative; */
+    margin-left: 50%;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.signature {
+    margin-left: 50%;
+}
+
+#signaturetext {
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 13px;
+}
+
+#roletext {
+    text-align: center;
+    margin-left: -30px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 13px;
+}
+
+/*aboutme end*/
+
+/*skills page start*/
+
+
+.left {
+    width: 43%;
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 43%;
+    position: absolute;
+    top: 100px;
+    left: 105%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skillheading {
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+
+.skillBox {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.skillBox p {
+    margin: 3px 0 10px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 12px;
+}
+
+.skillBox p:nth-child(2) {
+    float: right;
+    position: relative;
+}
+
+.skill {
+    background: #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.skill_level {
+    background: #0fffb7;
+    width: 100%;
+    height: 20px;
+}
+
+.skill_level i {
+    float: left;
+    color: white;
+    /* font-size: 15px; */
+    padding: 2px;
+}
+
+.percentage {
+    top: -20px;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainbox {
+    width: 80%;
+    position: relative;
+    margin-left: 10px;
+}
+
+.bottom {
+    top: 250px;
+    position: relative;
+    left: 20%;
+    text-align: center;
+}
+
+.langtext {
+    font-size: 12px;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.set-size {
+    font-size: 7em;
+}
+
+.charts-container:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.pie-wrapper {
+    height: 1em;
+    width: 1em;
+    float: left;
+    margin: 30px;
+    position: relative;
+}
+
+.pie-wrapper .pie {
+    height: 100%;
+    width: 100%;
+    clip: rect(0, 1em, 1em, 0.5em);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.pie-wrapper .pie .half-circle {
+    height: 100%;
+    width: 100%;
+    border: 0.1em solid #3498db;
+    border-radius: 50%;
+    clip: rect(0, 0.5em, 1em, 0);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.pie-wrapper .label {
+    background: #34495e;
+    border-radius: 50%;
+    bottom: 0.4em;
+    color: #ecf0f1;
+    cursor: default;
+    display: block;
+    font-size: 0.25em;
+    left: 0.4em;
+    line-height: 2.6em;
+    position: absolute;
+    right: 0.4em;
+    text-align: center;
+    top: 0.4em;
+}
+
+.pie-wrapper .label .smaller {
+    color: #bdc3c7;
+    font-size: .45em;
+    padding-bottom: 20px;
+    vertical-align: super;
+}
+
+.pie-wrapper .shadow {
+    height: 100%;
+    width: 100%;
+    border: 0.1em solid #bdc3c7;
+    border-radius: 50%;
+}
+
+.pie-wrapper.style-2 .label {
+    background: none;
+    color: #7f8c8d;
+}
+
+.pie-wrapper.style-2 .label .smaller {
+    color: #bdc3c7;
+}
+
+.pie-wrapper.progress-95 .pie {
+    clip: rect(auto, auto, auto, auto);
+}
+
+.pie-wrapper.progress-95 .pie .right-side {
+    -webkit-transform: rotate(342deg);
+    transform: rotate(342deg);
+}
+
+.pie-wrapper.progress-95 .pie .half-circle {
+    border-color: #1abc9c;
+}
+
+.pie-wrapper.progress-95 .pie .left-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.pie-wrapper.progress-85 .pie {
+    clip: rect(auto, auto, auto, auto);
+}
+
+.pie-wrapper.progress-85 .pie .right-side {
+    -webkit-transform: rotate(306deg);
+    transform: rotate(306deg);
+}
+
+.pie-wrapper.progress-85 .pie .half-circle {
+    border-color: #1abc9c;
+}
+
+.pie-wrapper.progress-85 .pie .left-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.pie-wrapper.progress-75 .pie {
+    clip: rect(auto, auto, auto, auto);
+}
+
+.pie-wrapper.progress-75 .pie .right-side {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.pie-wrapper.progress-75 .pie .half-circle {
+    border-color: #1abc9c;
+}
+
+.pie-wrapper.progress-75 .pie .left-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.pie-wrapper.progress-65 .pie {
+    clip: rect(auto, auto, auto, auto);
+}
+
+.pie-wrapper.progress-65 .pie .right-side {
+    -webkit-transform: rotate(234deg);
+    transform: rotate(234deg);
+}
+
+.pie-wrapper.progress-65 .pie .half-circle {
+    border-color: #1abc9c;
+}
+
+.pie-wrapper.progress-65 .pie .left-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.pie-wrapper--solid {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.pie-wrapper--solid:before {
+    border-radius: 0 100% 100% 0%;
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+}
+
+.pie-wrapper--solid .label {
+    background: transparent;
+}
+
+#circleprogress {
+    top: 70%;
+    position: absolute;
+    left: 18%;
+}
+
+/*skills page end*/
+
+/*resume page start*/
+
+.resume_scrollable {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.block1 {
+    position: relative;
+    top: -335px;
+}
+
+.arrowbox {
+    width: 30%;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    top: 80px;
+    left: 26%;
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    color: #777777;
+    font-size: 12px;
+}
+
+.arrowbox2 {
+    width: 30%;
+    height: 40px;
+    background-color: lightgray;
+    position: relative;
+    top: 80px;
+    left: 26%;
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    color: #777777;
+    font-size: 12px;
+}
+
+.arrowbox:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.block2 {
+    position: relative;
+    top: -215px;
+}
+
+.arrowbox3 {
+    width: 30%;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    top: 120px;
+    left: 26%;
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    color: #777777;
+    font-size: 12px;
+}
+
+.arrowbox4 {
+    width: 30%;
+    height: 40px;
+    background-color: lightgray;
+    position: relative;
+    top: 120px;
+    left: 26%;
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    color: #777777;
+    font-size: 12px;
+}
+
+.arrowbox3:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.block3 {
+    position: relative;
+    top: -415px;
+    left: 85%;
+}
+
+.arrowbox5 {
+    width: 30%;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    top: 120px;
+    left: -19%;
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    color: #777777;
+    font-size: 12px;
+}
+
+.arrowbox6 {
+    width: 30%;
+    height: 40px;
+    background-color: lightgray;
+    position: relative;
+    top: 120px;
+    left: -19%;
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    color: #777777;
+    font-size: 12px;
+}
+
+.arrowbox5:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.wrap {
+    width: 10%;
+    position: relative;
+    overflow: hidden;
+    left: 56%;
+    top: 100px;
+}
+
+.box {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.box:first-child {
+    margin-top: 0;
+}
+
+.figure {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    background: white;
+    color: #777777;
+    display: inline-block;
+    /* margin-right: 50px;*/
+}
+
+.line {
+    display: inline-block;
+}
+
+.border {
+    border-right: 3px solid #777777;
+    height: 98%;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    top: 0;
+    width: 1px;
+    z-index: -1;
+}
+
+.box:last-child .border {
+    display: none;
+}
+
+/*resume page end*/
+
+/*hireme page start*/
+
+.row {
+    overflow: hidden;
+    
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 1px;
+    text-align: center;
+    padding-top: 8%;
+   
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column img {
+    width: 80%;
+    height: 60%;
+}
+
+#cart4 {
+    position: relative;
+    height: 150px;
+}
+
+#cart5 {
+    position: relative;
+    left: 6px;
+    height: 150px;
+}
+
+#cart6 {
+    position: relative;
+    height: 150px;
+}
+
+.caption1 {
+    position: relative;
+    padding-top: 20px;
+}
+
+.caption1 p {
+    /* line-height: 3em; */
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 13px
+}
+
+.caption2 {
+    padding-top: 20px;
+    position: relative;
+}
+
+.caption2 p {
+    /* line-height: 3em; */
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 13px
+}
+
+.caption3 {
+    padding-top: 20px;
+    position: relative;
+}
+
+.caption3 p {
+    /* line-height: 3em; */
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 13px
+}
+
+.button {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: #222222;
+    background-size: 200% auto;
+    padding: 0px 35px;
+    margin-top: 6%;
+}
+
+hr {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #C5CCC8;
+    opacity: 0.5;
+    width: 80%;
+}
+
+/*hireme page end*/
+
+/*references page start*/
+
+.rowref {
+    margin-left: 25%;
+    
+}
+
+.columnref {
+    float: left;
+    width: 33%;
+    padding: 5px;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.rowref::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img.refimg {
+    border-radius: 50%;
+    width: 40px;
+}
+
+legend {
+    width: 50px;
+}
+
+fieldset {
+    height: 170px;
+    border-style: double;
+    border-width: 1px;
+}
+
+.reftext {
+    width: 100%;
+    overflow: auto;
+    line-height: em;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+div.reftext p{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+.desc {
+    line-height: 1.2em
+}
+
+/*references page end*/
+
+/* portfolio page start*/
+
+.column_portfolio {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 7%;
+   
+}
+
+div.tab button{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+.row_portfolio {
+    overflow: hidden;
+    margin-top: -65px;
+}
+
+.row_portfolio::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column1_port {
+    position: relative;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.column2_port {
+    position: relative;
+    margin-left: -40px;
+    margin-right: -80px;
+}
+
+.column3_port {
+    position: relative;
+}
+
+#img1 {
+    width: 80%;
+    height: 200px;
+    position: relative;
+}
+
+#img2 {
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin-top: -100px;
+}
+
+#img2a {
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin-top: -100px;
+}
+
+#img2b {
+    width: 80%;
+    height: 150px;
+    position: relative;
+    margin-top: -100px;
+}
+
+#img3 {
+    width: 80%;
+    height: 200px;
+    position: relative;
+}
+
+#img4 {
+    width: 80%;
+    height: 320px;
+    position: relative;
+    margin-top: -60px;
+}
+
+#img5 {
+    width: 80%;
+    height: 200px;
+    position: relative;
+}
+
+#img6 {
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin-top: -20px;
+}
+
+#img7 {
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin-top: -80px;
+}
+
+#img8 {
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin-top: -80px;
+}
+
+#img4a {
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin-top: -120px;
+}
+
+#img4b {
+    width: 80%;
+    height: 120px;
+    position: relative;
+    margin-top: -80px;
+}
+
+.tab {
+    text-align: center;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/*portfolio page end*/
+
+/*contactme page start*/
+
+.column1contact {
+    float: right;
+    width: 37%;
+    text-align: center;
+    line-height: 2em;
+}
+
+.rowcontact:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: 0;
+    border-width: 0 0 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+input[type=submit] {
+    /* background-color: #4CAF50;
+    color: white; */
+    padding: 0px 35px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: #222222;
+    background-size: 200% auto;
+}
+
+
+.contacticon {
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    text-align: center;
+}
+
+.contacticon i {
+    position: center;
+    padding-top: 20%;
+    color: white;
+    font-size: 0.90em;
+}
+
+.contactaddr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactdetmain {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.contactdet {
+    font-size: 10px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+.rowcontact {
+    margin-left: 50px;
+}
+
+#sendnow {
+    text-align: center;
+    float: left;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: #222222;
+    background-size: 200% auto;
+    padding: 0px 35px;
+}
+
+.contactheading{
+    font-family: 'Roboto',sans-serif;
+    color: #777777;
+    text-align: left;
+}
+
+.contactsocial{
+    top: 450px;
+    position: relative;
+}
+/*contactme page end*/
+
+/*login page start*/
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup form - hidden by default */
+
+.form-popup {
+    width: 40%;
+    position: relative;
+    bottom: 40%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    border-radius: 20px;
+    left: 25%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.signup_form {
+    padding-top: 6px;
+    margin-top: -30px;
+}
+
+.form-popup_signup {
+    width: 40%;
+    position: relative;
+    bottom: 40%;
+    border: 1px solid #ddd;
+    z-index: 9;
+    border-radius: 8px;
+    left: 25%;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
+/* Add styles to the form container */
+
+.form-container {
+    max-width: 600px;
+    /* padding: 10px; */
+    background-color: white;
+    /* padding-left: 3px; */
+    margin-left: 10px;
+    margin-right: 6px;
+}
+
+/* Full-width input fields */
+
+.form-container input[type=text], .form-container input[type=password] {
+    width: 94%;
+    height: 2px;
+    padding: 10px;
+    margin: 5px 0px 8px 0;
+    border: 2px solid #f1f1f1;
+    background: white;
+    border-radius: 5px;
+}
+
+/* When the inputs get focus, do something */
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+
+.form-container .btn1 {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: #222222;
+    background-size: 200% auto;
+    padding: 0px 35px;
+    margin-top: 6%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 55%;
+}
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: #222222;
+    background-size: 200% auto;
+    padding: 0px 35px;
+    margin-top: 6%;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+}
+
+.btn1_login {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: #222222;
+    background-size: 200% auto;
+    padding: 0px 35px;
+    margin-top: 6%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50%;
+}
+
+.cancel_login {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: #222222;
+    background-size: 200% auto;
+    padding: 0px 35px;
+    margin-top: 6%;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+}
+
+.login_text {
+    color: #777777;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login_text>i {
+    margin-left: 86%;
+    color: #DCDCDC;
+}
+
+.login_text~hr {
+    width: 100%;
+}
+
+.signup_form~hr {
+    width: 100%;
+}
+
+.user~hr {
+    width: 100%;
+}
+
+.login_text>i {
+    margin-left: 86%;
+    color: #DCDCDC;
+}
+
+.user {
+    color: #777777;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+/*close buttton*/
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+}
+
+.textbox_text {
+    margin-bottom: 4px;
+    margin-top: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 10px;
+}
+
+.close:hover {
+    background: #bbb;
+}
+
+/*blog page start*/
+#blogtitle{
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 13px;
+    margin-left: 22%;
+}
+/*blog page end*/
+
+/*login page end*/
+
+/*media queries*/
+/*already added necessary html elements in flexbox*/
+/*rules for phones*/
+@media only screen and (max-width:480px)
+{
+
+}
+/*CSS rules for tablets*/
+@media only screen and (min-width:481px) and (max-width:480px)
+{
+
+}
+/*CSS rules for desktops*/
+@media only screen and (min-width:769px)
+{
+
+}
+
+@media only screen and (max-width:979px)
+{
+    /*Homepage*/
+    #p1{
+        font-size:15px;
+    }
+    #p2{
+        font-size:20px;
+    }
+
+    /*navbar*/
+    .wrapper1 .navBar p{
+        font-size:10px;
+    }
+    ul b{
+        font-size:8px;
+    }
+    #p_footer{
+        font-size:.35em;
+    }
+	 
+}

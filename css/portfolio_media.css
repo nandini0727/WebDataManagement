@@ -1,0 +1,404 @@
+
+
+@media screen and (max-width:979px)
+{
+    /*Homepage*/
+    #p1{
+        font-size:15px;
+    }
+    #p2{
+        font-size:20px;
+    }
+
+    #p1{
+        font-size:15px;
+    }
+
+    /*navbar*/
+    .wrapper1 .navBar ul li a.listelem{
+        font-size:10px;
+    }
+    ul a{
+        font-size:8px;
+    }
+    #p_footer{
+        font-size:.35em;
+    }
+
+    /*Aboutme*/
+    #profilepic{
+		width:60%;
+		height:80%;
+	}
+	.icon1
+	{
+	     width: 15px;
+    height: 16px;
+	}
+	.icon2
+	{
+	   width: 15px;
+    height: 16px;
+	}
+	 .icon3
+	 {
+	   width: 15px;
+    height: 16px;
+	 }
+	 .icon4
+	 {
+	    width: 15px;
+    height: 16px;
+	 }
+	 .icon5
+	 {
+	   width: 15px;
+    height: 16px;
+	 }
+	 .icon6
+	 {
+	    width: 15px;
+    height: 16px;
+	 }
+	 #name
+	 {
+		 font-size:8px;
+		 left: 20px;
+	 }
+	  #phone
+	 {
+		 font-size:8px;
+		 top:-22px;
+		 left: 20px;
+	 }
+	  #address
+	 {
+		 font-size:8px;
+		 top:-50px;
+		 left: 20px;
+	 }
+	  #email
+	 {
+		 font-size:8px;
+		 left: 20px;
+	 }
+	  #dob{
+	 
+		 font-size:8px;
+		 top:-22px;
+		 left: 20px;
+	 }
+	  #nat
+	 {
+		 font-size:8px;
+		  top:-50px;
+		  left: 20px;
+	 }
+	 
+	
+	 .icon1 i{
+		 font-size:0.35em;
+	 }
+	  .icon2 i{
+		 font-size:0.35em;
+	 }
+	  .icon3 i{
+		 font-size:0.35em;
+	 }
+	  .icon4 i{
+		 font-size:0.35em;
+	 }
+	  .icon5 i{
+		 font-size:0.35em;
+	 }
+	  .icon6 i{
+		 font-size:0.35em;
+	 }
+	 .details_aboutme{
+		 font-size:10px;
+	 }
+	 .socialprofile_text{
+		 font-size:10px;
+	 }
+	 .sicon1{
+		 width:15px;
+		 height:15px;
+	 }
+	  .sicon2{
+		 width:15px;
+		 height:15px;
+		 left:45px;
+	 }
+	  .sicon3{
+		 width:15px;
+		 height:15px;
+		 left: 80px;
+	 }
+	  .sicon4{
+		 width:15px;
+		 height:15px;
+		 left: 80px;
+	 }
+	  .sicon5{
+		 width:15px;
+		 height:15px;
+	 }
+	  .sicon6{
+		 width:15px;
+		 height:15px;
+		 left: 150px;
+	 }
+	 .sicon1 i{
+		 font-size:0.40em;
+	 }
+	 .sicon2 i{
+		 font-size:0.40em;
+	 }
+	  .sicon3 i{
+		 font-size:0.40em;
+	 }
+	  .sicon4 i{
+		 font-size:0.40em;
+	 }
+	  .sicon5 i{
+		 font-size:0.40em;
+	 }
+	  .sicon6 i{
+		 font-size:0.40em;
+	 }
+	 .social{
+		    top: 100px;
+    left: 75px;
+	 }
+	 #profilepic_desc{
+		 font-size:10px;
+		 
+     }
+     
+     /*skills page*/
+
+     .skillBox{
+        width:50%;
+        height:20px;
+    }
+    .skill_level i{
+        font-size:6px;
+        text-align:center;
+        
+    }
+    .left{
+        top:140px;
+    }.right{
+        top:140px;
+    }
+    .left>h4{
+   font-size: 6px;
+   line-height: 2em;
+   margin-left: -20%;
+   margin-top: 70%;
+    }
+    .right>h4{
+         font-size: 6px;
+   line-height: 2em;
+   margin-left: -20%;
+   margin-top: 39%;
+        
+    }
+    .skill_level p {
+        font-size:0.5em;
+    }
+    .skillBox p:nth-child(2){
+        font-size:0.5em;
+    }
+    .reference_text p{
+        font-size:0.5em;
+    }
+    .refimg{
+        width:30%;
+       
+    }
+    fieldset{
+        margin-top:50%;
+       
+        
+    }
+    .column{
+width: 25%;
+   margin-left: -30px !important;
+    }
+    .row{
+        margin-top:-15%;
+    }
+
+    /*portfolio*/
+    #img5{
+        width: 60px;
+height: 180px;
+margin-top: 15%;
+margin-left: 20%;
+  }
+#img2{
+   width: 62px;
+height: 40%;
+margin-top: -20%;
+margin-left: 20%;
+ 
+}
+#img2a{
+   width: 65px;
+height: 40%;
+margin-top: 10%;
+margin-left: 20%;
+ 
+}
+#img2b{
+    width: 65px;
+height: 60px;
+margin-top: 10%;
+margin-left: 20%;
+ 
+}
+#img3{
+    width: 40%;
+height: 40%;
+margin-top: 10%;
+margin-left: 10%;
+} 
+ 
+
+#img4{
+     width: 40%;
+height: 40%;
+margin-top: 10%;
+margin-left: 10%;
+ 
+}
+#img4a{
+ width: 40%;
+height: 20%;
+margin-top: 10%;
+margin-left: 10%;
+ 
+}
+#img4b{
+     width: 40%;
+height: 40%;
+margin-top: 10%;
+margin-left: 10%;
+ 
+}
+#img1{
+     width: 50px;
+height: 80px;
+margin-top: 25%;
+margin-left: 10%;
+ 
+}
+#img6{
+     width: 60px;
+height: 170px;
+margin-top: -5%;
+ 
+}
+#img7{
+     width: 60px;
+height: 60%;
+margin-top: -30%;
+ 
+}
+#img8{
+     width: 60px;
+height: 80px;
+margin-top: 20%;
+ 
+}
+/* .tab{
+ width:80%;
+}
+.tablinks{
+ font-size:0.4em;
+}*/
+
+/*hireme*/
+.caption3 p{
+    font-size:10px;
+}
+.caption2 p{
+    font-size:10px;
+}
+.caption1 p{
+    font-size:10px;
+}
+#cart6{
+    margin-top:80%;
+}
+ #cart5{
+    margin-top:80%;
+}
+ #cart4{
+    margin-top:80%;
+    margin-left: 10px;
+}
+.button{
+    width:0px;
+    height:10px;
+}
+
+/*references*/
+.reftext p{
+    font-size:0.5em;
+}
+.refimg{
+    width:30%;
+   
+}
+fieldset{
+    margin-top:50%;
+   
+    
+}
+.columnref{
+width: 25%;
+
+}
+/* .rowref{
+    margin-top:-15%;
+} */
+
+/*contactme*/
+.contacticon{
+    width:15px;
+    height:15px;
+}
+.contacticon i{
+   font-size: 0.2em;
+}
+h6{
+    font-size:0.5em;
+}
+.contactdetmain{
+    font-size:0.5em;
+}
+.contactdet{
+    font-size:8px;
+}
+input[type=text], select, textarea{
+    font-size:.5em;
+}
+.column1contact{
+    margin-left:20px;
+}
+h4{
+    font-size:10px;
+    margin-left:25px;
+}
+.contactsocial{
+    left:20%;
+}
+
+.contactheading{
+    font-size: 12px;
+}
+	 
+}
+
